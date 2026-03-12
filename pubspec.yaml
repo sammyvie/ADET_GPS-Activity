@@ -1,7 +1,6 @@
 name: mapmeapp
-description: "A new Flutter project."
+description: "GPS Map Activity"
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -12,15 +11,12 @@ dependencies:
     sdk: flutter
   flutter_map: ^6.1.0
   latlong2: ^0.9.1
-  geolocator: ^12.0.0 # Standard version for older SDKs
+  geolocator: ^12.0.0
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
 
 flutter:
-
   uses-material-design: true
-
